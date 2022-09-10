@@ -14,7 +14,13 @@ public class Config
 
     public string GetZipPath()
     {
-        return $"{Course}_{Login}_{Assignment}.zip";
+        string name = $"{Course}_{Login}_{Assignment}.zip";
+        if (Validator.ZipNameValidator.validate(name).GetResult())
+        {
+            return name;
+        }
+
+        throw new ArgumentException($"Can't build correct name for the ZIP file. The generated ZIP file name was {name}");
     }
 
     public static Config CreateConfig(ConfigFactory factory)
