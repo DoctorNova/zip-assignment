@@ -22,4 +22,9 @@ A terminal should pop up where you can see a success message. You can close the 
 <img src="docs/setup-step-3.png?raw=true" width="300px">
 <br/>
 
-## 🥳 You successfully installed the Assignment Zipper.
+### 🥳 You successfully installed the Assignment Zipper.
+
+## How to use it
+
+Open your terminal in the parent directory of the folder you want to zip.
+Here you can just type `assignment-zipper.exe` and the application will guide you through the process.
