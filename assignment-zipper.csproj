@@ -2,6 +2,7 @@
 
   <PropertyGroup>
     <OutputType>Exe</OutputType>
+    <PublishTrimmed>true</PublishTrimmed>
     <TargetFramework>net6.0</TargetFramework>
     <RuntimeIdentifier>win-x64</RuntimeIdentifier>
     <RootNamespace>assignment_zipper</RootNamespace>

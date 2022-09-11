@@ -4,7 +4,7 @@
     {
         if (args.Length == 0)
         {
-            Config config = Config.CreateConfig(new ConfigArguments());
+            Config config = Config.CreateConfig(new ConfigInquirer());
             ZipBuilder zip = new ZipBuilder(config);
             zip.zip();
         } else if (args[0] == "-v") {
