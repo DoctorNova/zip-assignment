@@ -1,6 +1,7 @@
 module.exports = {
-  extends: 'erb',
+  extends: ['erb', 'prettier'],
   rules: {
+    'prettier/prettier': 'error',
     // A temporary hack related to IDE not resolving correct package.json
     'import/no-extraneous-dependencies': 'off',
     'import/no-unresolved': 'error',
@@ -15,6 +16,7 @@ module.exports = {
     tsconfigRootDir: __dirname,
     createDefaultProgram: true,
   },
+  plugins: ['prettier'],
   settings: {
     'import/resolver': {
       // See https://github.com/benmosher/eslint-plugin-import/issues/1396#issuecomment-575727774 for line below
