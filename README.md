@@ -1,5 +1,5 @@
 # ASSIGNMENT ZIPPER
-The Assignment ZIPPer is a utility to zip assignment for the Computer Science courses of [DigiPen Institute of Technology Bilbao](https://www.digipen.es/)
+The Assignment ZIPPer is a utility to zip assignment for Computer Science courses
 
 ## How to install
 
